@@ -7,7 +7,10 @@ struct App: SwiftUI.App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InterviewsView()
+                .task {
+                    await InterviewManualSeed.input()
+                }
         }
     }
 }

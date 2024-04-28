@@ -1,0 +1,16 @@
+enum Symbol: String {
+    case xmark = "xmark"
+    case arrowRight = "arrow.right"
+    case chevronRight = "chevron.right"
+    case chevronLeft = "chevron.left"
+    case chevronDown = "chevron.down"
+    case exclamationmarkTriangle = "exclamationmark.triangle"
+    case person = "person"
+    case lock = "lock"
+    case appBadge = "app.badge"
+    case eye = "eye"
+    case app = "app"
+    case moon = "moon"
+    case sun = "sun"
+    case ellipsis = "ellipsis"
+}

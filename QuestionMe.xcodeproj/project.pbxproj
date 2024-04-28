@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		527273142BDDF1FB00F3FAD3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273132BDDF1FB00F3FAD3 /* App.swift */; };
-		527273162BDDF1FB00F3FAD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273152BDDF1FB00F3FAD3 /* ContentView.swift */; };
+		527273162BDDF1FB00F3FAD3 /* InterviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273152BDDF1FB00F3FAD3 /* InterviewsView.swift */; };
 		527273182BDDF1FD00F3FAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527273172BDDF1FD00F3FAD3 /* Assets.xcassets */; };
 		5272731B2BDDF1FD00F3FAD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272731A2BDDF1FD00F3FAD3 /* Preview Assets.xcassets */; };
 		527273252BDDF1FE00F3FAD3 /* QuestionMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273242BDDF1FE00F3FAD3 /* QuestionMeTests.swift */; };
@@ -39,6 +39,18 @@
 		527273762BDE737A00F3FAD3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 527273752BDE737A00F3FAD3 /* FirebaseStorage */; };
 		527273782BDE737A00F3FAD3 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 527273772BDE737A00F3FAD3 /* FirebaseStorageCombine-Community */; };
 		5272737A2BDE73FA00F3FAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273792BDE73FA00F3FAD3 /* AppDelegate.swift */; };
+		5272737C2BDE826A00F3FAD3 /* InterviewManualSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272737B2BDE826A00F3FAD3 /* InterviewManualSeed.swift */; };
+		5272737E2BDE832E00F3FAD3 /* FirebaseInterviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272737D2BDE832E00F3FAD3 /* FirebaseInterviewModel.swift */; };
+		527CCAD92BDEEEE90039CDA6 /* HeadlineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAD82BDEEEE90039CDA6 /* HeadlineText.swift */; };
+		527CCADB2BDEEEF90039CDA6 /* BodyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCADA2BDEEEF90039CDA6 /* BodyText.swift */; };
+		527CCADD2BDEEF0A0039CDA6 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCADC2BDEEF0A0039CDA6 /* RoundedButton.swift */; };
+		527CCADF2BDEEF230039CDA6 /* FirabseInterviewsReposiory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCADE2BDEEF230039CDA6 /* FirabseInterviewsReposiory.swift */; };
+		527CCAE12BDEEF470039CDA6 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAE02BDEEF470039CDA6 /* BackgroundView.swift */; };
+		527CCAE32BDEEF5E0039CDA6 /* InterviewCardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAE22BDEEF5E0039CDA6 /* InterviewCardItemView.swift */; };
+		527CCAE52BDEF3B20039CDA6 /* CircularLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAE42BDEF3B20039CDA6 /* CircularLoader.swift */; };
+		527CCAE72BDEF4650039CDA6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAE62BDEF4650039CDA6 /* ErrorView.swift */; };
+		527CCAE92BDEF4A50039CDA6 /* SymbolImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAE82BDEF4A50039CDA6 /* SymbolImage.swift */; };
+		527CCAEB2BDEF4B30039CDA6 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAEA2BDEF4B30039CDA6 /* Symbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +66,7 @@
 /* Begin PBXFileReference section */
 		527273102BDDF1FB00F3FAD3 /* QuestionMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527273132BDDF1FB00F3FAD3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		527273152BDDF1FB00F3FAD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		527273152BDDF1FB00F3FAD3 /* InterviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewsView.swift; sourceTree = "<group>"; };
 		527273172BDDF1FD00F3FAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5272731A2BDDF1FD00F3FAD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		527273202BDDF1FE00F3FAD3 /* QuestionMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +74,18 @@
 		5272733D2BDDF43200F3FAD3 /* QuestionMe.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuestionMe.xctestplan; sourceTree = "<group>"; };
 		527273442BDE72E700F3FAD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		527273792BDE73FA00F3FAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5272737B2BDE826A00F3FAD3 /* InterviewManualSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewManualSeed.swift; sourceTree = "<group>"; };
+		5272737D2BDE832E00F3FAD3 /* FirebaseInterviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseInterviewModel.swift; sourceTree = "<group>"; };
+		527CCAD82BDEEEE90039CDA6 /* HeadlineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineText.swift; sourceTree = "<group>"; };
+		527CCADA2BDEEEF90039CDA6 /* BodyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyText.swift; sourceTree = "<group>"; };
+		527CCADC2BDEEF0A0039CDA6 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		527CCADE2BDEEF230039CDA6 /* FirabseInterviewsReposiory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirabseInterviewsReposiory.swift; sourceTree = "<group>"; };
+		527CCAE02BDEEF470039CDA6 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		527CCAE22BDEEF5E0039CDA6 /* InterviewCardItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewCardItemView.swift; sourceTree = "<group>"; };
+		527CCAE42BDEF3B20039CDA6 /* CircularLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoader.swift; sourceTree = "<group>"; };
+		527CCAE62BDEF4650039CDA6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		527CCAE82BDEF4A50039CDA6 /* SymbolImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolImage.swift; sourceTree = "<group>"; };
+		527CCAEA2BDEF4B30039CDA6 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +155,22 @@
 			children = (
 				527273442BDE72E700F3FAD3 /* GoogleService-Info.plist */,
 				527273132BDDF1FB00F3FAD3 /* App.swift */,
-				527273152BDDF1FB00F3FAD3 /* ContentView.swift */,
+				527273152BDDF1FB00F3FAD3 /* InterviewsView.swift */,
 				527273172BDDF1FD00F3FAD3 /* Assets.xcassets */,
 				527273192BDDF1FD00F3FAD3 /* Preview Content */,
 				527273792BDE73FA00F3FAD3 /* AppDelegate.swift */,
+				5272737B2BDE826A00F3FAD3 /* InterviewManualSeed.swift */,
+				5272737D2BDE832E00F3FAD3 /* FirebaseInterviewModel.swift */,
+				527CCAD82BDEEEE90039CDA6 /* HeadlineText.swift */,
+				527CCADA2BDEEEF90039CDA6 /* BodyText.swift */,
+				527CCADC2BDEEF0A0039CDA6 /* RoundedButton.swift */,
+				527CCADE2BDEEF230039CDA6 /* FirabseInterviewsReposiory.swift */,
+				527CCAE02BDEEF470039CDA6 /* BackgroundView.swift */,
+				527CCAE22BDEEF5E0039CDA6 /* InterviewCardItemView.swift */,
+				527CCAE42BDEF3B20039CDA6 /* CircularLoader.swift */,
+				527CCAE62BDEF4650039CDA6 /* ErrorView.swift */,
+				527CCAE82BDEF4A50039CDA6 /* SymbolImage.swift */,
+				527CCAEA2BDEF4B30039CDA6 /* Symbol.swift */,
 			);
 			path = QuestionMe;
 			sourceTree = "<group>";
@@ -299,7 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "#if [[ \"$(uname -m)\" == arm64 ]]; then\n    #export PATH=\"/opt/homebrew/bin:$PATH\"\n#fi\n\n#if which swiftlint > /dev/null; then\n  # swiftlint --fix && swiftlint\n#else\n  #echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#fi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -308,9 +344,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527CCAE12BDEEF470039CDA6 /* BackgroundView.swift in Sources */,
+				5272737C2BDE826A00F3FAD3 /* InterviewManualSeed.swift in Sources */,
 				5272737A2BDE73FA00F3FAD3 /* AppDelegate.swift in Sources */,
-				527273162BDDF1FB00F3FAD3 /* ContentView.swift in Sources */,
+				527CCAE92BDEF4A50039CDA6 /* SymbolImage.swift in Sources */,
+				527CCAE32BDEEF5E0039CDA6 /* InterviewCardItemView.swift in Sources */,
+				527CCAD92BDEEEE90039CDA6 /* HeadlineText.swift in Sources */,
+				527CCADD2BDEEF0A0039CDA6 /* RoundedButton.swift in Sources */,
+				527CCADB2BDEEEF90039CDA6 /* BodyText.swift in Sources */,
+				527273162BDDF1FB00F3FAD3 /* InterviewsView.swift in Sources */,
 				527273142BDDF1FB00F3FAD3 /* App.swift in Sources */,
+				5272737E2BDE832E00F3FAD3 /* FirebaseInterviewModel.swift in Sources */,
+				527CCAEB2BDEF4B30039CDA6 /* Symbol.swift in Sources */,
+				527CCADF2BDEEF230039CDA6 /* FirabseInterviewsReposiory.swift in Sources */,
+				527CCAE72BDEF4650039CDA6 /* ErrorView.swift in Sources */,
+				527CCAE52BDEF3B20039CDA6 /* CircularLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,8 +503,9 @@
 		527273352BDDF1FE00F3FAD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QuestionMe/Preview Content\"";
@@ -490,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QuestionMe/Preview Content\"";
