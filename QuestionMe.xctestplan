@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "3FB219F6-296F-43C5-9884-8D8F4BE2DF1F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "language" : "pt-BR",
+    "locationScenario" : {
+      "identifier" : "Rio de Janeiro, Brazil",
+      "referenceType" : "built-in"
+    },
+    "region" : "BR",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:QuestionMe.xcodeproj",
+      "identifier" : "5272730F2BDDF1FB00F3FAD3",
+      "name" : "QuestionMe"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:QuestionMe.xcodeproj",
+        "identifier" : "5272731F2BDDF1FE00F3FAD3",
+        "name" : "QuestionMeTests"
+      }
+    }
+  ],
+  "version" : 1
+}
