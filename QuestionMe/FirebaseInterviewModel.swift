@@ -1,6 +1,6 @@
 import Foundation
 
-struct FirebaseInterviewModel: Codable, Identifiable {
+struct FirebaseInterviewModel: Codable, Identifiable, Hashable {
     let id: String
     let title: String
     let description: String
@@ -17,7 +17,7 @@ struct FirebaseInterviewModel: Codable, Identifiable {
         case questions = "questoes"
     }
 
-    enum Difficulty: String, Codable {
+    enum Difficulty: String, Codable, Hashable {
         case easy = "facil"
         case mid = "medio"
         case hard = "dificil"
@@ -25,7 +25,7 @@ struct FirebaseInterviewModel: Codable, Identifiable {
         case impossible = "impossivel"
     }
 
-    struct Question: Codable, Identifiable {
+    struct Question: Codable, Identifiable, Hashable {
         let id: Int
         let question: String
         let type: QuestionType
@@ -39,12 +39,12 @@ struct FirebaseInterviewModel: Codable, Identifiable {
         }
     }
 
-    enum QuestionType: String, Codable {
+    enum QuestionType: String, Codable, Hashable {
         case single = "SINGLE"
         case mult = "MULT"
     }
 
-    struct Alternative: Codable, Identifiable {
+    struct Alternative: Codable, Identifiable, Hashable {
         let id: Int
         let anwser: String
         let isCorrect: Bool

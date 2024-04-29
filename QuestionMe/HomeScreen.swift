@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct InterviewsView: View {
+struct HomeScreen: View {
 
     @State private var viewState = ViewState.loading
 
@@ -76,7 +76,7 @@ struct InterviewsView: View {
 }
 
 #Preview {
-    InterviewsView(
+    HomeScreen(
         interviewsRepository: FirabseInterviewsReposiory(),
         seeMoreAboutInterviewCoorinator: { _ in }
     )

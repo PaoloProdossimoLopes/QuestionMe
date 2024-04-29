@@ -5,18 +5,18 @@ struct App: SwiftUI.App {
 
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    @State private var shouldSeeMoreInterview = false
+    @State private var shouldSeeMoreInterview: FirebaseInterviewModel?
 
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                InterviewsView(
+                HomeScreen(
                     interviewsRepository: FirabseInterviewsReposiory(),
                     seeMoreAboutInterviewCoorinator: coordinateToSeeMoreAboutInterview
                 )
                 .navigationDestination(
-                    isPresented: $shouldSeeMoreInterview,
-                    destination: EmptyView.init
+                    item: $shouldSeeMoreInterview,
+                    destination: InterviewScreen.init
                 )
             }
             .task {
@@ -26,6 +26,6 @@ struct App: SwiftUI.App {
     }
     
     private func coordinateToSeeMoreAboutInterview(interview: FirebaseInterviewModel) {
-        shouldSeeMoreInterview.toggle()
+        shouldSeeMoreInterview = interview
     }
 }

@@ -5,7 +5,7 @@ func RoundedButton(_ title: String) -> some View {
     BodyText(title, color: .white)
         .padding(.horizontal, 18)
         .padding(.vertical, 8)
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity, minHeight: 44)
         .background(.black)
         .clipShape(Capsule())
 }

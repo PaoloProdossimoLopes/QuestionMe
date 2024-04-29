@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		527273142BDDF1FB00F3FAD3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273132BDDF1FB00F3FAD3 /* App.swift */; };
-		527273162BDDF1FB00F3FAD3 /* InterviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273152BDDF1FB00F3FAD3 /* InterviewsView.swift */; };
+		527273162BDDF1FB00F3FAD3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273152BDDF1FB00F3FAD3 /* HomeScreen.swift */; };
 		527273182BDDF1FD00F3FAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527273172BDDF1FD00F3FAD3 /* Assets.xcassets */; };
 		5272731B2BDDF1FD00F3FAD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272731A2BDDF1FD00F3FAD3 /* Preview Assets.xcassets */; };
 		527273252BDDF1FE00F3FAD3 /* QuestionMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527273242BDDF1FE00F3FAD3 /* QuestionMeTests.swift */; };
@@ -51,6 +51,9 @@
 		527CCAE72BDEF4650039CDA6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAE62BDEF4650039CDA6 /* ErrorView.swift */; };
 		527CCAE92BDEF4A50039CDA6 /* SymbolImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAE82BDEF4A50039CDA6 /* SymbolImage.swift */; };
 		527CCAEB2BDEF4B30039CDA6 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAEA2BDEF4B30039CDA6 /* Symbol.swift */; };
+		527CCAED2BDF5D4D0039CDA6 /* UINavigationController+RemoveBackButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAEC2BDF5D4D0039CDA6 /* UINavigationController+RemoveBackButtonText.swift */; };
+		527CCAEF2BDF5F430039CDA6 /* InterviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAEE2BDF5F430039CDA6 /* InterviewScreen.swift */; };
+		527CCAF12BDF60560039CDA6 /* RoundedBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CCAF02BDF60560039CDA6 /* RoundedBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +69,7 @@
 /* Begin PBXFileReference section */
 		527273102BDDF1FB00F3FAD3 /* QuestionMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527273132BDDF1FB00F3FAD3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		527273152BDDF1FB00F3FAD3 /* InterviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewsView.swift; sourceTree = "<group>"; };
+		527273152BDDF1FB00F3FAD3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		527273172BDDF1FD00F3FAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5272731A2BDDF1FD00F3FAD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		527273202BDDF1FE00F3FAD3 /* QuestionMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +89,9 @@
 		527CCAE62BDEF4650039CDA6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		527CCAE82BDEF4A50039CDA6 /* SymbolImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolImage.swift; sourceTree = "<group>"; };
 		527CCAEA2BDEF4B30039CDA6 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		527CCAEC2BDF5D4D0039CDA6 /* UINavigationController+RemoveBackButtonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+RemoveBackButtonText.swift"; sourceTree = "<group>"; };
+		527CCAEE2BDF5F430039CDA6 /* InterviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewScreen.swift; sourceTree = "<group>"; };
+		527CCAF02BDF60560039CDA6 /* RoundedBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +161,7 @@
 			children = (
 				527273442BDE72E700F3FAD3 /* GoogleService-Info.plist */,
 				527273132BDDF1FB00F3FAD3 /* App.swift */,
-				527273152BDDF1FB00F3FAD3 /* InterviewsView.swift */,
+				527273152BDDF1FB00F3FAD3 /* HomeScreen.swift */,
 				527273172BDDF1FD00F3FAD3 /* Assets.xcassets */,
 				527273192BDDF1FD00F3FAD3 /* Preview Content */,
 				527273792BDE73FA00F3FAD3 /* AppDelegate.swift */,
@@ -171,6 +177,9 @@
 				527CCAE62BDEF4650039CDA6 /* ErrorView.swift */,
 				527CCAE82BDEF4A50039CDA6 /* SymbolImage.swift */,
 				527CCAEA2BDEF4B30039CDA6 /* Symbol.swift */,
+				527CCAEC2BDF5D4D0039CDA6 /* UINavigationController+RemoveBackButtonText.swift */,
+				527CCAEE2BDF5F430039CDA6 /* InterviewScreen.swift */,
+				527CCAF02BDF60560039CDA6 /* RoundedBadge.swift */,
 			);
 			path = QuestionMe;
 			sourceTree = "<group>";
@@ -348,15 +357,18 @@
 				5272737C2BDE826A00F3FAD3 /* InterviewManualSeed.swift in Sources */,
 				5272737A2BDE73FA00F3FAD3 /* AppDelegate.swift in Sources */,
 				527CCAE92BDEF4A50039CDA6 /* SymbolImage.swift in Sources */,
+				527CCAED2BDF5D4D0039CDA6 /* UINavigationController+RemoveBackButtonText.swift in Sources */,
 				527CCAE32BDEEF5E0039CDA6 /* InterviewCardItemView.swift in Sources */,
 				527CCAD92BDEEEE90039CDA6 /* HeadlineText.swift in Sources */,
 				527CCADD2BDEEF0A0039CDA6 /* RoundedButton.swift in Sources */,
 				527CCADB2BDEEEF90039CDA6 /* BodyText.swift in Sources */,
-				527273162BDDF1FB00F3FAD3 /* InterviewsView.swift in Sources */,
+				527273162BDDF1FB00F3FAD3 /* HomeScreen.swift in Sources */,
 				527273142BDDF1FB00F3FAD3 /* App.swift in Sources */,
 				5272737E2BDE832E00F3FAD3 /* FirebaseInterviewModel.swift in Sources */,
 				527CCAEB2BDEF4B30039CDA6 /* Symbol.swift in Sources */,
 				527CCADF2BDEEF230039CDA6 /* FirabseInterviewsReposiory.swift in Sources */,
+				527CCAEF2BDF5F430039CDA6 /* InterviewScreen.swift in Sources */,
+				527CCAF12BDF60560039CDA6 /* RoundedBadge.swift in Sources */,
 				527CCAE72BDEF4650039CDA6 /* ErrorView.swift in Sources */,
 				527CCAE52BDEF3B20039CDA6 /* CircularLoader.swift in Sources */,
 			);
