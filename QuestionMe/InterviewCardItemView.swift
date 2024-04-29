@@ -4,6 +4,7 @@ struct InterviewCardItemView: View {
     let title: String
     let description: String
     let buttonTitle: String
+    let buttonAction: Completion
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -15,6 +16,7 @@ struct InterviewCardItemView: View {
             }
 
             RoundedButton(buttonTitle)
+                .onTapGesture(perform: buttonAction)
         }
         .padding()
         .background(.gray100)

@@ -1,16 +1,11 @@
 import SwiftUI
 
 typealias Completion = () -> Void
+typealias CompletionWith<T> = (T) -> Void
 
 struct ErrorView: View {
 
-    private let tryAgainAction: Completion
-
-    init(
-        tryAgainAction: @escaping Completion
-    ) {
-        self.tryAgainAction = tryAgainAction
-    }
+    let tryAgainAction: Completion
 
     var body: some View {
         BackgroundView {

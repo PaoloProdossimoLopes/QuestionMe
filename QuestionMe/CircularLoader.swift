@@ -10,7 +10,6 @@ struct CircularLoader: View {
     private let lineWidth = CGFloat(10)
 
     var body: some View {
-
         ZStack {
             Circle()
                 .stroke(lineWidth: lineWidth)

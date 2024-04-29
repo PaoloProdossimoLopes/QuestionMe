@@ -4,7 +4,8 @@ struct InterviewsView: View {
 
     @State private var viewState = ViewState.loading
 
-    private let interviewsRepository = FirabseInterviewsReposiory()
+    let interviewsRepository: FirabseInterviewsReposiory
+    let seeMoreAboutInterviewCoorinator: CompletionWith<FirebaseInterviewModel>
 
     var body: some View {
         BackgroundView {
@@ -12,18 +13,12 @@ struct InterviewsView: View {
             case .loading:
                 CircularLoader()
             case .error:
-                ErrorView(tryAgainAction: {
-                    Task {
-                        await fetchInterviews()
-                    }
-                })
+                ErrorView(tryAgainAction: fetchInterview)
             case .content(let interviews):
                 makeContent(interviews: interviews)
             }
         }
-        .task {
-            await fetchInterviews()
-        }
+        .onAppear(perform: fetchInterview)
     }
 
     private func makeContent(interviews: [FirebaseInterviewModel]) -> some View {
@@ -44,9 +39,17 @@ struct InterviewsView: View {
             InterviewCardItemView(
                 title: item.title,
                 description: item.description,
-                buttonTitle: "ver mais"
+                buttonTitle: "ver mais",
+                buttonAction: {
+                    cardButtonActionHandler(interview: item)
+                }
             )
         }
+    }
+    
+    private func cardButtonActionHandler(interview: FirebaseInterviewModel) {
+        UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+        seeMoreAboutInterviewCoorinator(interview)
     }
 
     private func fetchInterviews() async {
@@ -58,6 +61,12 @@ struct InterviewsView: View {
             viewState = .error
         }
     }
+    
+    private func fetchInterview() {
+        Task {
+            await fetchInterviews()
+        }
+    }
 
     enum ViewState {
         case loading
@@ -67,5 +76,8 @@ struct InterviewsView: View {
 }
 
 #Preview {
-    InterviewsView()
+    InterviewsView(
+        interviewsRepository: FirabseInterviewsReposiory(),
+        seeMoreAboutInterviewCoorinator: { _ in }
+    )
 }
